@@ -7,5 +7,5 @@
 	$ip  = strtok($server, ':');
 	$port  = strtok(':');
 	$buff = $srcds->srcds_rcmd ( $ip, $port, $rcon, $cmd );
-	return $buff;
+	echo $buff;
 ?>
